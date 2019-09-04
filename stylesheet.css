@@ -100,7 +100,7 @@ form .submit:hover{
 }
 
 a{
-    color: black;
+    font-color: #000;
     
 }
 a :hover{
