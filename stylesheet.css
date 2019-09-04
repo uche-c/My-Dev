@@ -2,19 +2,31 @@ body{
 	color: black;
 	font-family: calibri body;
 	font-weight: lighter;
+	background-color: bisque;
 
+}
+
+img{
+	align-content: center;
 }
 
 h2{
-	font-family: verdana;
+    font-family: verdana;
+	text-align: center;
 
 }
 
+p {
+	text-align: center;
+}
+
 h3{
+    padding-top: 20px;
 	color: blue;
 	text-decoration: underline;
 	font-style: italic;
-	font-weight: lighter;
+    font-weight: lighter;
+    text-align: center;
 }
 
 table{
@@ -24,22 +36,73 @@ table{
 th{
 	color: blue;
 	font-weight: lighter;
-	padding: 
+	padding: 10px;
 }
 
-tr:nth-child(odd) td{
-	background-color: #e7edf0;
-
+p .para1{
+	text-align: center
 }
-
-p.para1, p.para2, p.para3, p.para4, p.para5, p.para6, p.para7, p.para8, p.para9{
-	background-color: white;
-
-}
-
 
 td.DATE{
 	text-align: right;
 }
 
+ .form{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: #2b5876;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+.title{
+    margin-top: 90px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 10px;
+
+}
+
+form{
+    margin-top: 30px;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input{
+    height: 45px;
+}
+form .submit{
+    background-color: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+a{
+    color: #fff;
+    
+}
+a :hover{
+    background-color: #f44336;
 }
